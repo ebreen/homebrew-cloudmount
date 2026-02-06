@@ -1,6 +1,6 @@
 cask "cloudmount" do
   version "2.0.0"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "8a2efdafa02e08fc36125d6f25b929995f1b6f57bb8bb38164815e4ea569e804"
 
   url "https://github.com/ebreen/cloudmount/releases/download/v#{version}/CloudMount-#{version}.dmg"
   name "CloudMount"
@@ -29,7 +29,7 @@ cask "cloudmount" do
     CloudMount requires macOS 26 (Tahoe) or later.
 
     After installation, enable the FSKit extension:
-      System Settings → General → Login Items & Extensions → CloudMount
+      System Settings -> General -> Login Items & Extensions -> CloudMount
 
     Mount a volume:  Use the CloudMount menu bar app, or run: mount -t b2 b2://bucket /mount/point
     Unmount:          Use the menu bar app, or run: diskutil unmount /mount/point
