@@ -1,6 +1,6 @@
 cask "cloudmount" do
-  version "2.0.0"
-  sha256 "8a2efdafa02e08fc36125d6f25b929995f1b6f57bb8bb38164815e4ea569e804"
+  version "2.0.1"
+  sha256 "7dca6a7ffa956c97cb2d5d87179e3b4342ad1b46b3d94d0268318b6c206ae97a"
 
   url "https://github.com/ebreen/cloudmount/releases/download/v#{version}/CloudMount-#{version}.dmg"
   name "CloudMount"
